@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+<body>
+    <h1 id="player-turn" class="x">Turno de las X</h1>
+    <div class="content">
+        <button class="item"></button>
+        <button class="item"></button>
+        <button class="item"></button>
+        <button class="item"></button>
+        <button class="item"></button>
+        <button class="item"></button>
+        <button class="item"></button>
+        <button class="item"></button>
+        <button class="item"></button>
+    </div>
+
+    <div class="popup hide">
+        <p id="mensaje"></p>
+        <form id="player-form" class="hide">
+            <input type="text" id="player-name" placeholder="Ingresa tu nombre" required>
+            <button type="submit">Guardar</button>
+        </form>
+        <button id="new-game">Jugar de nuevo</button>
+    </div>
+    
+    <div id="leaderboard">
+        <h2>Mejores tiempos</h2>
+        <ul id="scores-list"></ul>
+    </div>    
+
+    <script src="Js/script.js"></script>
+</body>
+</html>
